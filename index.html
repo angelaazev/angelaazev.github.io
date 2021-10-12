@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="css.css" rel="stylesheet">
+    <link href="static/css/main.css" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -16,20 +16,23 @@
         <div class="row d-flex justify-content-center">
             <div class="col-md-7">
                 <div class="card p-3 py-4">
-                    <div class="text-center"> <img src="minhafoto.jpg" width="100" class="rounded-circle"> </div>
-                    <div class="text-center mt-3"> <span class="bg-secondary p-1 px-4 rounded text-white">Pro</span>
-                        <h5 class="mt-2 mb-0">"Ângela Azevedo"</h5> <span>Web developer</span>
+                    <div class="text-center"> <img src="static/minhafoto.jpg" width="100" class="rounded-circle"> </div>
+                    <div class="text-center mt-3"> 
+                        <h3 class="mt-2 mb-0">Ângela Azevedo</h5> 
+                        <span class="tamanho-webdeveloper">Web developer</span>
                         <div class="px-4 mt-1">
                             <p class="fonts"> 22 anos. Graduanda em Ciências da computação, com previsão de formação para 2024, tem interesse pela área de desenvolvimento web. Possui conhecimento das ferramentas: Javascript, HTML, CSS. Tem como maior motivação para trabalhar com computação e desenvolvimento a sua paixão por tecnologia. </p>
                         </div>
                         <ul class="social-list">
-                            <li><i class="fa fa-facebook"></i></li>
-                            <li><i class="fa fa-dribbble"></i></li>
-                            <li><i class="fa fa-instagram"></i></li>
-                            <li><i class="fa fa-linkedin"></i></li>
-                            <li><i class="fa fa-google"></i></li>
+                            <li><a href="https://www.facebook.com/angieazev/" target="_blank" class="fa fa-facebook social-link"></a></li>
+                            <li><a href="https://www.instagram.com/angelaazev/" target="_blank" class="fa fa-instagram social-link"></a></li>
+                            <li><a href="https://www.linkedin.com/in/angelasrazevedo/" target="_blank" class="fa fa-linkedin social-link"></a></li>
+                            <li><a href="https://github.com/angelaazev" target="_blank" class="fa fa-github social-link"></a></li>
                         </ul>
-                        <div class="buttons"> <button class="btn btn-outline-primary px-4">Mensagem</button> <button class="btn btn-primary px-4 ms-3">Contato</button> </div>
+                        <div class="buttons">
+                            <button class="btn btn-outline-primary px-4" onclick="location.href='mailto:angelaazev15@gmail.com';">Mensagem</button>
+                            <button class="btn btn-outline-primary px-4" onclick="location.href='https://drive.google.com/viewerng/viewer?url=https://angelaazev.github.io/static/curriculo-angela.pdf';">Currículo</button>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ body {
     top: 0;
     width: 4px;
     height: 100%;
-    background-color: #E1BEE7;
+    background-color: #b4e9e9;
     transform: scaleY(1);
     transition: all 0.5s;
     transform-origin: bottom
@@ -30,7 +30,7 @@ body {
     top: 0;
     width: 4px;
     height: 100%;
-    background-color: #8E24AA;
+    background-color: #24aaaa;
     transform: scaleY(0);
     transition: all 0.5s;
     transform-origin: bottom
@@ -41,7 +41,11 @@ body {
 }
 
 .fonts {
-    font-size: 11px
+    font-size: 17px
+}
+
+.tamanho-webdeveloper {
+    font-size: 18px
 }
 
 .social-list {
@@ -53,26 +57,25 @@ body {
 
 .social-list li {
     padding: 10px;
-    color: #8E24AA;
+    color: #24aaaa;
     font-size: 19px
 }
 
-.buttons button:nth-child(1) {
-    border: 1px solid #8E24AA !important;
-    color: #8E24AA;
+.buttons button {
+    border: 1px solid #24aaaa !important;
+    color: #24aaaa;
     height: 40px
 }
 
-.buttons button:nth-child(1):hover {
-    border: 1px solid #8E24AA !important;
+.buttons button:hover {
+    border: 1px solid #24aaaa !important;
     color: #fff;
     height: 40px;
-    background-color: #8E24AA
+    background-color: #24aaaa
 }
 
-.buttons button:nth-child(2) {
-    border: 1px solid #8E24AA !important;
-    background-color: #8E24AA;
-    color: #fff;
-    height: 40px
+
+.social-link {
+    text-decoration: none;
+    color: #24aaaa;
 }
